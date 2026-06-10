@@ -1,0 +1,20 @@
+# === 두뇌 (클라우드) ===
+anthropic>=0.49.0
+
+# === 로컬 음성 ===
+openwakeword>=0.6.0          # 웨이크워드 "자비스"
+faster-whisper>=1.0.3        # 로컬 STT (한국어)
+piper-tts>=1.2.0             # 로컬 TTS (한국어)
+
+# === 오디오 I/O + VAD ===
+sounddevice>=0.4.6           # 마이크 입력 / 스피커 출력
+numpy>=1.24
+webrtcvad>=2.0.10            # 발화 구간 감지(턴 종료 판단)
+
+# === 구글 캘린더 ===
+google-api-python-client>=2.120.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+
+# === 유틸 ===
+python-dotenv>=1.0.1
